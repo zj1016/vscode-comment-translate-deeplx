@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>deeplx&#x7ffb;&#x8bd1;&#x4e2d;&#x6587;&#x6587;&#x6863;</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="deeplx翻译中文文档">deeplx翻译中文文档</h1>
+<p>该插件为‘comment-translate’插件提供翻译源。它本身不激活，当选择启用时才会启动。</p>
+<h2 id="功能">功能</h2>
+<ol>
+<li>
+<p>提供翻译能力</p>
+</li>
+<li>
+<p>提供在线文档链接文本</p>
+</li>
+<li>
+<p>支持联网/本地deeplx服务(本地服务需自行部署DeepLX服务)</p>
+</li>
+</ol>
+<h2 id="必备要求">必备要求</h2>
+<p>⚠️ 请先安装'<a href="https://github.com/intellism/vscode-comment-translate">comment-translate</a>'才能使用</p>
+<h2 id="使用方法">使用方法</h2>
+<ol>
+<li>
+<p>安装后，调用“Comment Translate”的“更改翻译源”命令
+<img src="https://i.postimg.cc/5yGfn88R/change.png" alt="change"></p>
+</li>
+<li>
+<p>在vscode插件中配置DeepLX API（使用本地DeepLX服务时无需配置，默认：127.0.0.1:1188）
+<img src="https://i.postimg.cc/1zMNmYGh/select.png" alt="select"></p>
+</li>
+<li>
+<p>直接使用“Comment Translate”的交互模式翻译对应文本</p>
+</li>
+</ol>
+<h1 id="deeplx-translate-english-description">deeplx-translate English Description</h1>
+<p>The plugin provides a translation source for the ‘comment-translate’ plugin. Itself does not activate, it starts when enabled is selected.</p>
+<h2 id="features">Features</h2>
+<ol>
+<li>Provide translation capabilities</li>
+<li>Provides online document link text</li>
+<li>Support for networked/local deeplx services</li>
+</ol>
+<h2 id="requirements">Requirements</h2>
+<p>⚠️ Please install '<a href="https://github.com/intellism/vscode-comment-translate">comment-translate</a>' to use</p>
+<h2 id="use">Use</h2>
+<ol>
+<li>
+<p>After installation, call the &quot;Change translation source&quot; command of &quot;Comment Translate&quot;
+<img src="https://i.postimg.cc/5yGfn88R/change.png" alt="change"></p>
+</li>
+<li>
+<p>Configure DeepLX API in vscode extension (no configuration required to use local DeepLX service, default:127.0.0.1:1188)</p>
+<p><img src="https://i.postimg.cc/1zMNmYGh/select.png" alt="select"></p>
+</li>
+<li>
+<p>Directly use the &quot;Comment Translate&quot; interactive mode to translate the corresponding text</p>
+</li>
+</ol>
+
+            
+            
+        </body>
+        </html>
