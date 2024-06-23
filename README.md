@@ -4,15 +4,17 @@
 
 ## 功能
 
-1. 提供翻译能力
+1. 提供DeepLX翻译能力
 
-2. 提供在线文档链接文本
+2. 翻译正式语气和非正式语气
 
-3. 支持联网/本地deeplx服务(本地服务需自行部署DeepLX服务)
+3. 格式化选项
+
+4. 支持联网/本地deeplx服务(本地服务需自行部署DeepLX服务)
 
 ## 必备要求
 
-⚠️ 请先安装'[comment-translate](https://github.com/intellism/vscode-comment-translate)'才能使用
+⚠️ 请先安装'[comment-translate](https://marketplace.visualstudio.com/items?itemName=intellsmi.comment-translate)'才能使用
 
 ## 使用方法
 
@@ -35,7 +37,7 @@ The plugin provides a translation source for the ‘comment-translate’ plugin.
 
 ## Requirements
 
-⚠️ Please install '[comment-translate](https://github.com/intellism/vscode-comment-translate)' to use
+⚠️ Please install '[comment-translate](https://marketplace.visualstudio.com/items?itemName=intellsmi.comment-translate)' to use
 
 ## Use
 

@@ -2,7 +2,7 @@
   "name": "deeplx-comment-translate",
   "displayName": "Deeplx Comment Translate",
   "description": "deeplx translate source for comment-translate",
-  "version": "1.0.0",
+  "version": "10.0.0",
   "publisher": "deeplx-comment-translate",
   "engines": {
     "vscode": "^1.63.0"
@@ -51,6 +51,7 @@
         "properties": {
         "deeplxTranslate.source": {
         "type": "string",
+        "markdownDescription": "default: EN",
         "enum": [
         "BG", "CS", "DA", "DE", "EL", "EN", "ES", "ET", "FI", "FR",
         "HU", "ID", "IT", "JA", "KO", "LT", "LV", "NB", "NL", "PL",
@@ -66,6 +67,7 @@
         "properties": {
           "deeplxTranslate.target": {
             "type": "string",
+            "markdownDescription": "default: ZH",
                   "enum": [
         "BG", "CS", "DA", "DE", "EL", "EN", "ES", "ET", "FI", "FR",
         "HU", "ID", "IT", "JA", "KO", "LT", "LV", "NB", "NL", "PL",
@@ -103,7 +105,6 @@
         "type": "Object",
         "properties": {
           "deeplxTranslate.split": {
-        "type": ["number","null","string"],
         "enum": [null,0, 1,"nonewlines"],
             "markdownDescription": "null: 默认，0: 不拆分, 1: 拆分, nonewlines: 拆分但不换行",
             "default": null
